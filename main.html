@@ -7,16 +7,15 @@
 	<link rel="stylesheet" href="styles.css">
 	<style>
   /* Styling for tables */
-  table {
-    border: 1px solid rgb(0,0,0);
-    border-spacing: 1px;
-	padding:1px;
-    border-collapse: collapse;
+   table.middle {
+    border: 1px solid black; /* Table borders: 1px solid black */
+    border-spacing: 1px; /* Spacing between cells: 1px */
+    border-collapse: collapse; /* Collapse borders */
     width: 100%;
   }
   th, td {
-    padding: 1px;
-    
+    padding: 1px; /* Cell padding: 1px */
+    text-align: center;
   }
   .green {
     background-color: green;
@@ -37,7 +36,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1 style="text-align:center">HTML Assignment #3</h1>
-	<table id="table-1" class="middle" border="1px" >
+	<table id="table-1" class="middle"  >
 		<tbody>
 			
 			<tr>
@@ -59,7 +58,7 @@
 		</tbody>
 	</table>
 <br>
-	<table id="table-2" class="middle" border="1px" >
+	<table id="table-2" class="middle" >
 		<tbody>
 			<tr>
 				<td id="t21" colspan="6"></td>
